@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Page</title>
+  <link rel="stylesheet" href="company.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Search Page</h1>
+    <input type="text" id="search-box" placeholder="Search..." onkeyup="filterResults()">
+    <div id="filter-options">
+      <label>
+        <input type="checkbox" class="filter" value="Blog"> Blog
+      </label>
+      <label>
+        <input type="checkbox" class="filter" value="News"> News
+      </label>
+      <label>
+        <input type="checkbox" class="filter" value="Tutorial"> Tutorial
+      </label>
+    </div>
+    <div id="results">
+     
+    </div>
+  </div>
+  <script src="company.js"></script>
+</body>
+</html>
